@@ -1,1 +1,6 @@
-# CATISNOTSODIUM-
+## CATISNOTSODIUM 🐱 - An aspiring cat who loves playing with keyboard ✨
+**The infinite monkey theorem** states that a monkey hitting keys at random on a typewriter keyboard for an infinite amount of time will almost surely type any given text. **The infinite cat theorem** prolly follows the same rule. 
+### Personal interest 
+- Web development 
+- Programming language (currently studying)
+- Stochastic process (currently studying)
