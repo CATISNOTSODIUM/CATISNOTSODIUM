@@ -11,7 +11,7 @@ function App() {
         <a target="_blank" href="https://github.com/CATISNOTSODIUM">
           Github
         </a>
-        <a target="_blank" href="https://drive.google.com/file/d/1hCd1fj0aSneGO4fxF52_LtNrP1i80Keo/view?usp=sharing">
+        <a target="_blank" href="https://drive.google.com/file/d/1F-zTpyYagPqUNbVP4gzQfjEsDsB-35tV/view?usp=sharing">
             Resume
         </a>
         <a target="_blank" href="mailto:thitiwatipst@gmail.com">
