@@ -9,7 +9,7 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/'>
       <Route path='/' element={<App/>}/>
-      <Route path='blog_bof' element={<BOF/>}/>
+      <Route path='/blog_bof' element={<BOF/>}/>
     </Route>,
   )
 )
