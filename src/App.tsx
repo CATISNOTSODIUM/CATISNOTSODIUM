@@ -4,7 +4,7 @@ import Card from './components/card.tsx'
 function App() {
 
   return (
-    <div className='sm:mx-10 md:mx-24 lg:mx-60'>  
+    <div className='sm:mx-10 md:mx-24 lg:mx-60 pb-10'>  
       <h1 className='-mb-3'> Kosolpattanadurong Thitiwat </h1>
       <div className='-m-y-2'>Computer Science with Second Major in Statistics</div>
       <div className='flex flex-row gap-3 text-sm'>
@@ -70,19 +70,21 @@ existing forums created by other users, then save as a markdown file.'
       </div>
      
       <h2>Blogs</h2>
-      <Card 
+      <div className='flex flex-col gap-3'>
+        <Card 
           title="(THAI) What are the best ways to maximize the reach of a post?"
           description='Maximizing engagement from post promotion can be really tricky, considering how vague the algorithm introduced by social media platform is. However, what if we purge all nuances from the algorithm? ...'
           imgUrl='https://scontent-sin6-4.xx.fbcdn.net/v/t39.30808-6/428676953_421213426961906_2763394665783370854_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=Y8_RDB-kMtMQ7kNvgEr1MT1&_nc_zt=23&_nc_ht=scontent-sin6-4.xx&_nc_gid=A1kxJjFO_VOGrPqumDmhXAi&oh=00_AYDC8r-8TpTg9aOPmVIl0T_oIUW6RqqiSdS2dt2Oz52f1g&oe=679646E0'
           targetUrl='https://www.facebook.com/story.php?story_fbid=pfbid02b7BdW4Awqq1X7ajeJh3RasaN4LGnRYdAQhDcKR6DQykEYcc8Wdu7jBxEVb97o2r7l&id=100072197568983&_rdr'
           tags={[{title: 'Graph Theory'}]}
-      />
+        />
 
-      <Card 
-          title="Implementing BOF - An unnecessary extension to Brainfuck (BF)"
-          description='Delve into into how I implement BOF.'
-          targetUrl='/blog_bof'
-      />
+        <Card 
+            title="Implementing BOF - An unnecessary extension to Brainfuck (BF)"
+            description='Delve into into how I implement BOF.'
+            targetUrl='/blog_bof'
+        />
+        </div>
     </div>
   )
 }
