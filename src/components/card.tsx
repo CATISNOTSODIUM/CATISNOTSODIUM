@@ -22,13 +22,13 @@ export default function Card(
           <img className="sm:max-w-48" src={imgUrl}></img>
         </div>
         <div>
-          <h3>{title}</h3>
+          <h3 className="">{title}</h3>
           
           <p className='text-gray-600 py-3'>{description}</p>
             <div className="flex flex-row gap-3 text-xs">
             {
                 tags?.map(
-                    (link) => <a className="bg-gray-100 px-3 rounded-md"
+                    (link) => <a className="bg-gray-100 px-3 py-1 rounded-full"
                     href={link.url}>{link.title}</a>
                 )
             }
