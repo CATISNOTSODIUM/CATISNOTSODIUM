@@ -3,3 +3,4 @@
 
 Check out my stuff [here ✨](https://catisnotsodium.vercel.app/)!
 
+[![CATISNOTSODIUM's GitHub stats](https://github-readme-stats.vercel.app/api/top-langs?username=CATISNOTSODIUM&layout=donut-vertical)](https://github.com/anuraghazra/github-readme-stats)
