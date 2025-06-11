@@ -69,7 +69,7 @@ function App() {
         existing forums created by other users, then save as a markdown file.'
         imgUrl='https://github.com/CATISNOTSODIUM/threadkeep-frontend/raw/master/figure/title.png'
         targetUrl='https://threadkeep-frontend.vercel.app/'
-        tags={[{title: 'React'},{title: 'Go'},{title: 'psql'},{title: 'docker'},{title: 'gcp'}]}
+        tags={[{title: 'React'},{title: 'Go'},{title: 'SQL'},{title: 'docker'},{title: 'gcp'}]}
     />
 
         <Card 
@@ -81,36 +81,11 @@ function App() {
         </div>
          <h2 className="mt-5">On-going Projects</h2>
         <hr className="border-gray-400 border-1 mb-4"/>
-            <Card
-            title="SKEL - Program Translator via Skeleton Generation"
-            description="A (future) second-year UROP project supervised by Prof. Umang Mathur. SKEL is an automated program translation from Python to Javascript. This translation is under the constraint of preserving equivalent behavior (such as call graph) after translation."
-        tags={[{title: 'Research'}, {title: 'Programming Language'}]}
-            />
             <Card 
             title="CVWO - Active Ageing Centre (AAC) team"
             description="An ongoing summer internship program for social service agencies (CP3107) under CVWO." 
+            tags={[{title: 'Go'}, {title: 'SQL'}, {title: 'Rails'}]}
             />
-
-
-        <h1> Blogs✨ 
-        </h1>
-        <hr className="border-gray-400 border-1 mb-4"/>
-        <div className='flex flex-col gap-3'>
-        <Card 
-        title="Reimplementing stepper - utilizing lambda calculus to evaluate programs"
-        description='An interesting perspective towards js-slang stepper-rewrite project'
-        targetUrl='./blog_stepper'
-        />
-        <Card 
-        title="How to quickly count the number of stalls in pipelining hazard? ✨"
-        description='An interesting trick to count the number of pipelining stalls from your computer organization course'
-        targetUrl='./blog_pipelining'
-        tags={[{title: 'Pipelining'},{title: 'Computer organization'}]}
-        />
-
-
-        </div>
-
         </div>
         )
 }
